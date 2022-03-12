@@ -11,7 +11,7 @@ In this JAVA repository we will cover three topic categories:
 3. **Analyze and identify** introduced concepts in more complex programs like an Audio Player built using JAVA - code taken from GeeksforGeeks.
  
  **MENU TOPIC VIEW:**
- 
+ ![MENU](/IMAGES/menu.png)
 
 
  Watch the video to view the walk through of each concept:
