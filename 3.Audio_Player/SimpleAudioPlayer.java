@@ -1,5 +1,6 @@
-
-// Java program to play an Audio
+//COMMENTS IN UPPERCASE WERE ADDED TO FURTHER DESCRIBE
+//CODE FUNCTIONS AND EXPECTED OUTPUTS
+//Java program to play an Audio
 // file using Clip Object
 import java.io.File;
 import java.io.IOException;
@@ -11,11 +12,17 @@ import javax.sound.sampled.Clip;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
+
+/*INITIATE SIMPLEAUDIOPLAYER CLASS
+DO NOT FORGET YOUR ADDITIONAL FILE
+WITH YOUR CLASS NAME ENDING WITH ".class" */
 public class SimpleAudioPlayer
 {
 
-	// to store current position
+	// To store current position
+	//Public class LONG extends number length
 	Long currentFrame;
+	//Public class CLIP allows to loop the audio file. 
 	Clip clip;
 	
 	// current status of clip
@@ -46,7 +53,7 @@ public class SimpleAudioPlayer
 	{
 		try
 		{
-			filePath = "math_bckgnd_classical.wav";
+			filePath = "test.wav";
 			SimpleAudioPlayer audioPlayer =
 							new SimpleAudioPlayer();
 			
@@ -77,7 +84,21 @@ public class SimpleAudioPlayer
 	}
 	
 	// Work as the user enters his choice
+	/* SIMILAR TO C LANGUAGE AND C++, WE CAN OBSERVE THE USAGE OF 
+	SWITCH CASES FOR THE MENU.
 	
+	IN THE MENU YOU CAN PICK:
+	
+	1. PAUSE
+	2. RESUME 
+	3. RESTART
+	4. STOP (WHICH BREAKS THE PROGRAM)
+
+	CASE 5 WILL PRINT OUT THE FOLLOWING DATA
+	FROM PLAYED AUDIO FILE:
+		- LENGTH OF WAV FILE IN MICROSECONDS
+
+	*/
 	private void gotoChoice(int c)
 			throws IOException, LineUnavailableException, UnsupportedAudioFileException
 	{
@@ -106,6 +127,16 @@ public class SimpleAudioPlayer
 		}
 	
 	}
+
+	/* EACH SWITCH CASE COMES FROM A DEFINED METHOD,
+	
+	BELOW YOU CAN OBSERVE HOW THEY ARE PUBLIC VOID METHODS
+	
+	YOU CAN ALSO OBSERVE EACH STATEMENT ENDING WITH A SEMI-COLON
+	
+	AS MENTIONED IN THE CONCEPTS README FILE.
+	
+	*/
 	
 	// Method to play the audio
 	public void play()
@@ -166,8 +197,11 @@ public class SimpleAudioPlayer
 		clip.stop();
 		clip.close();
 	}
-	
-	// Method to jump over a specific part
+	//THIS METHOD IS LIKE YOUR FASTFORWARD OR REVERSE 
+	//OPTION IN AN AUDIO PLAYER:
+	//OR SIMILAR TO THE SLIDER FOR YOUR AUDIO-
+	//WHICH ALLOWS YOU TO JUMP TO DIFFERENT 
+	//PARTS OF YOUR AUDIO FILE.
 	public void jump(long c) throws UnsupportedAudioFileException, IOException,
 														LineUnavailableException
 	{

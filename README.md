@@ -6,12 +6,17 @@ In this JAVA repository we will cover three topic categories:
 
 1. **Introducing** different concepts that will allow us to comprehend *begginner, intermediate,* and *advanced* programming concepts, and how they look in JAVA.
 
-2. **Build** a simple "Hello World" program, and identify different coding concepts, and how they look like in JAVA.
+2. **Building** a simple "Hello World" program, and identify different coding concepts, and how they look like in JAVA.
 
-3. **Analyze and identify** introduced concepts in more complex programs like an Audio Player built using JAVA - code taken from GeeksforGeeks.
+3. **Analyzing and identifying** introduced concepts in more complex programs like an Audio Player built using JAVA - code from GeeksforGeeks.
  
  **MENU TOPIC VIEW:**
- ![MENU](/IMAGES/menu.png)
+ 
+ 1. [Concepts README](/1.Concepts/Concepts.md)
+ 2. [Hello World README](/2.Hello_World/Hello_JAVA.md)
+    - [Hello World Program](/2.Hello_World/Hello.java)
+ 3. [Audio Player Program](/3.Audio_Player/SimpleAudioPlayer.java)
+    - This program was used from GeeksforGeeks for syntax comprehension purposes in JAVA. Credit to this program can be found in [this link](https://www.geeksforgeeks.org/play-audio-file-using-java/).
 
 
  Watch the video to view the walk through of each concept:
@@ -20,19 +25,30 @@ In this JAVA repository we will cover three topic categories:
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+The programming languages and libraries used to develop this project were the following:
+- JAVA Programming Language:
+    - Libraries in JAVA:
 
-{Describe the programming language that you used and any libraries.}
+        - javax.sound
+        - javax.io
+- Visual Studio Code
+- GitHub 
+- BandLab
+    - 'test.wav' is my own creation and is only available for code test purposes.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Audio Player](https://www.geeksforgeeks.org/play-audio-file-using-java/)
+* [JAVA Read Files](https://www.w3schools.com/java/java_files_read.asp)
+* [WAV Files in JAVA](https://stackoverflow.com/questions/3297749/java-reading-manipulating-and-writing-wav-files)
+* [Visual Studio Code JAVA Tutorial](https://code.visualstudio.com/docs/java/java-tutorial)
+
+* [W3schools JAVA](https://www.w3schools.com/java/default.asp)
+
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+- Continue developing mastery in JAVA.
+- With time create more JAVA tutorials.
+- With time create more complex JAVA projects.
+- Not forget to have fun creating with JAVA.
