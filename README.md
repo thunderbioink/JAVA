@@ -49,6 +49,6 @@ The programming languages and libraries used to develop this project were the fo
 # Future Work
 
 - Continue developing mastery in JAVA.
-- With time create more JAVA tutorials.
-- With time create more complex JAVA projects.
+- Create more JAVA tutorials.
+- Create more complex JAVA projects.
 - Not forget to have fun creating with JAVA.
