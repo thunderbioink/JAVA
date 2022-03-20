@@ -38,7 +38,7 @@ public class SimpleAudioPlayer
 	{
 		// create AudioInputStream object
 		audioInputStream =
-				AudioSystem.getAudioInputStream(new File("math_bckgnd_classical.wav").getAbsoluteFile());
+				AudioSystem.getAudioInputStream(new File("3.Audio_Player/test.wav").getAbsoluteFile());
 		
 		// create clip reference
 		clip = AudioSystem.getClip();
@@ -53,7 +53,7 @@ public class SimpleAudioPlayer
 	{
 		try
 		{
-			filePath = "test.wav";
+			filePath = "3.Audio_Player/test.wav";
 			SimpleAudioPlayer audioPlayer =
 							new SimpleAudioPlayer();
 			

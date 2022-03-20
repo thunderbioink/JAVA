@@ -1,3 +1,4 @@
+
 public class concepts {
     public static void main(String[] args)
         {
@@ -7,13 +8,13 @@ public class concepts {
         float aFloatValue = 10.987f;
         //Character variables contain one letter
         char aLetter = 'A';
-        //Booleans are either True or False - sytnax in JAVA
+        //Booleans are either True or False - syntax in JAVA
         //requires you type your boolean terms in undercase:
-        boolean boolTrue = true;
+        boolean boolTrue = true; 
         boolean boolFalse = false;
         //Strings in JAVA can hold more than one char value:
         String setOfLetters = "A, B, C, D";
-        String varJava = "VARIABLES IN JAVA";
+        String varJava = "VARIABLES IN JAVA: ";
         
         //PRINT VARIABLES:
         System.out.println();
@@ -37,5 +38,3 @@ public class concepts {
         System.out.println(setOfLetters);
         }
 }
-
-

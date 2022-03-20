@@ -21,7 +21,7 @@ In this JAVA repository we will cover three topic categories:
 
  Watch the video to view the walk through of each concept:
 
-* [Software Demo Video](http://youtube.link.goes.here)
+* [Software Demo Video](https://youtu.be/aZZU_t2y0SY)
 
 # Development Environment
 

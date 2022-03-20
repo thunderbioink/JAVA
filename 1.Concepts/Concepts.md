@@ -11,7 +11,7 @@ How this looks like in this repository:
 ![CLASSES and CLASS FILES](/IMAGES/audioclass.png)
 
 Now, extension files are different from classes that encapsulate your main methods. Here's a basic class structure:
--  **IMPORTANT**, if you try and run the program written like this, you will get an error.
+-  **IMPORTANT**, if you try and run the program written like this, you won't be able to see the OUTPUT of your variables printed on the terminal.
 - Try and observe why this code would OUTPUT an error. *Clue given in image.* 
 
 ![class syntax](/IMAGES/class.png)
